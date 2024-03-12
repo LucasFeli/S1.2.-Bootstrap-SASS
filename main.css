@@ -11977,4 +11977,10 @@ textarea.form-control-lg {
 #login {
   background-color: #FA5959;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .first-text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
