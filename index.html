@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section>
+
+        <!--Navbar-->
+      <nav class="navbar navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./Imagenes/logo-bookmark.svg"
+              alt="Logo"
+              width="130"
+              height="24"
+              class="d-inline-block align-text-center"
+            />
+          </a>
+          <button 
+          type="button"
+          class="nabvar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle = "collapse"
+          aria-expande="false"
+          aria-label="toggle navigation"
+          >
+
+          </button>
+          <!-- Navbar links-->
+          <ul class="nav justify-content-end" id="navbarNav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >FEATURES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICING</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <button class="btn btn-outline-danger" id="login" type="submit">
+              LOGIN
+            </button>
+          </ul>
+        </div>
+      </nav>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-5">
+            <h1 class="h1">A Simple Bookmark Manager</h1>
+            <p>
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly.Try it
+              for free
+            </p>
+            <button type="button" class="btn btn-outline-primary" id="chrome">
+              Get it on Chrome
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              Get it on Firefox
+            </button>
+          </div>
+          <div class="col-5">
+            <img
+              src="./Imagenes/illustration-hero.svg"
+              alt="illustration-hero"
+              class="d-inline-block align-text-center"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

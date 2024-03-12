@@ -1,0 +1,19 @@
+$color-primario:#5265E1;
+$color-secundario:#FA5959;
+$font-color-navbar:black;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.nav-link{
+    color:$font-color-navbar
+}
+
+#chrome{
+    background-color: $color-primario;
+    color: white;
+}
+
+#login{
+    background-color: $color-secundario;
+    color: white;
+}
