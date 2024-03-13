@@ -19,6 +19,24 @@ $font-color-navbar:black;
 }
 
 
+.nav-underline .nav-link.active, .nav-underline .show > .nav-link {
+    border-bottom: 3px solid red; /* Cambia el color y el grosor de la línea como prefieras */
+  }
+
+  .justify-content-center{
+    border-bottom-style: inset;
+  }
+
+  .nav-underline .nav-link{
+    text-decoration: none !important; 
+    
+  }
+
+  .nav-underline .nav-link:hover{
+    color:$color-secundario;
+    border-bottom: 0px;
+  }
+
 @media only screen and (max-width: 600px) {
 
     .first-text{
